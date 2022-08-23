@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main_container{
+    height: 100vh;
+    background-color: rgb(174, 174, 81);
+    width: 8vw;
+   
+}
+
+.nav_bars{
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.navText{
+    color: aliceblue;
+}

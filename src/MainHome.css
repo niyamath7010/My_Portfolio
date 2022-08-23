@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home_main_container{
+    position: absolute;
+    width: 30vw;
+    background-color: black;
+    height: 100vh;
+    margin-left: 102px;
+    margin-top: -20px;
+}
+
+.my_pic{
+    width: 31vw;
+    height: 60vh;
+    border-radius: 20%;
+    border: 3px  solid whitesmoke;
+    
+}
+
+.home_container{
+    display: flex;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 25%;
+}
+
+.my_name{
+    font-size: 55px;
+    color: rgb(8, 95, 171) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.my_language{
+    font-family: fantasy;
+    font-size: 60px;
+    padding-top: 60px;
+}
+
+.my_profile{
+    /* position: relative; */
+    padding: 120px;
+}

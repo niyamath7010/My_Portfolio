@@ -1,6 +1,7 @@
-
+import React from 'react';
 import './App.css';
-import Loader from './Loader';
+import { Route , Routes } from 'react-router-dom';
+// import Span from './navbar';
 
 function App() {
   return (
@@ -10,11 +11,13 @@ function App() {
           <div className='back_ground_container'>
             <div className='back_color'>
               <div className='nav_bar'>
-                <span>Home</span>
-                <span>service</span>
-                <span>contact</span>
-                <span>portfolio</span>
-                <span>Education</span>
+                <Routes>
+                   <Route path='/' element={"/"}></Route>
+                   {/* <Route><span>service</span></Route>
+                   <Route><span>contact</span></Route>
+                   <Route><span>portfolio</span></Route>
+                   <Route><span>Education</span></Route> */}
+                </Routes>
               </div>
               <div className='my_profile'>
                  <div className='my_img'>
