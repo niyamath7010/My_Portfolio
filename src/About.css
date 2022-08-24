@@ -6,9 +6,9 @@
 
 .about_main_conatiner{
     position: fixed;
-    margin-left: 102px;
+    margin-left: 107px;
     margin-top: -20px;
-    width: 91vw;
+    width: 93vw;
     height: 100vh;
     background-color: black;
     color: white;
@@ -44,13 +44,12 @@
     position: absolute;
     left: 5px;
     top: 5px;
-    background: linear-gradient(45deg , #e6fb04 , #ff6600 , #00ff66 , rgb(73, 146, 182) , #ff00ff , #ff0099 ,
-     #6e0dd0 , #ff3300 , #099fff);
+    background: linear-gradient(45deg ,orange , white , green , orange , white , green ,orange , white , green);
     background-size: 400%;
     width: calc(100% + 5px);
     height: calc(100% + 5px);
     z-index: -1;
-    animation: animate 20s linear infinite;
+    animation: animate 30s linear infinite;
 }
 
 @keyframes animate{

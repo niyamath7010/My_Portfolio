@@ -5,16 +5,44 @@
 }
 
 .main_container{
-    height: 100vh;
-    background-color: rgb(174, 174, 81);
+    position: absolute;
+    height: 755px;
+    background: linear-gradient(0deg , rgb(81, 77, 60) , rgb(0, 0, 0) , rgb(77, 77, 97));
     width: 8vw;
-   
+    margin-left: 10% auto 0;
+}
+
+.desing::before , .desing::after{
+    content:'';
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    background: linear-gradient(45deg , #e6fb04 , #ff6600 , #00ff66 , rgb(73, 146, 182) , #ff00ff , #ff0099 ,
+     #6e0dd0 , #ff3300 , #099fff);
+    background-size: 400%;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0 0 ;
+    }
+    50%{
+        background-position: 400% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
 }
 
 .nav_bars{
     display:flex;
     flex-direction: column;
     padding: 20px;
+    
 }
 
 .navText{

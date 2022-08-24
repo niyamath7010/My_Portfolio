@@ -10,9 +10,9 @@ import About from "./About";
 function MainNav(){
     return(
         <>
-            <div className="main_container">
+            <div className="main_container desing">
                 <div className="container">
-                   <div className="nav_bars"> 
+                   <div className="nav_bars "> 
                     <NavIcons text="Home" path_test="/home" />
                     <NavIcons text="Education" path_test="/education" />
                     <NavIcons text="About Me" path_test="/about" />
