@@ -11,13 +11,13 @@ function App() {
           <div className='back_ground_container'>
             <div className='back_color'>
               <div className='nav_bar'>
-                <Routes>
-                   <Route path='/' element={"/"}></Route>
+                {/* <Routes> */}
+                   {/* <Route path='/' element={"/"}></Route> */}
                    {/* <Route><span>service</span></Route>
                    <Route><span>contact</span></Route>
                    <Route><span>portfolio</span></Route>
                    <Route><span>Education</span></Route> */}
-                </Routes>
+                {/* </Routes> */}
               </div>
               <div className='my_profile'>
                  <div className='my_img'>

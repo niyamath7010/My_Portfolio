@@ -2,6 +2,7 @@ import React from "react";
 import "./NavText.css"
 import { Link } from "react-router-dom";
 
+
 function NavIcons(props){
     return(
         <>

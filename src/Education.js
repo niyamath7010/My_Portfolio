@@ -23,7 +23,7 @@ function Education(){
                             <h3>Bsc In Computer Science - 2020</h3>
                     </div>
                     <div className="college_name">
-                        <h3>New College (Automouse) </h3>
+                        <h3>The New College Chennai</h3>
                         <h5 className="college_per">66% Percentage</h5>
                     </div>
                 </div>

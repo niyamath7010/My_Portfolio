@@ -61,6 +61,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 :hover.btn{

@@ -5,7 +5,7 @@
     height: 100vh;
     margin-top: -20px;
     width: 1409px;
-    background-color: black;
+    background: linear-gradient(0deg , rgb(0, 0, 0) , rgb(47, 46, 46));
 }
 
 .edu_container{

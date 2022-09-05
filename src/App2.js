@@ -6,7 +6,7 @@ function HomePage(){
         <>
             <div className="main_container">
                 <div className="container">
-                    <MainNav/>
+                     <MainNav/>
                 </div>
             </div>
         </>

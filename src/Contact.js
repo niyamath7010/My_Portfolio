@@ -10,7 +10,7 @@ function Contact(){
                     </div>
                     <div className='input_tag'>
                             <input className='name_input' type="text" placeholder="Enter Your Name"></input><br/><br/>
-                            <input className='email_input' type="email" placeholder="enter Your Email"></input>&nbsp
+                            <input className='email_input' type="email" placeholder="Enter Your Email"></input>&nbsp
                             <input className='contact_input' type="number" placeholder="Enter Your Contact"></input><br/> <br/>
                             <input className='subject_input' type="text" placeholder="Enter Subject"></input><br/> <br/>
                             <input className='message_input' type="text" placeholder="Enter Your Message"></input>
