@@ -1,7 +1,6 @@
 import React from "react";
 import "./PortFolio.css"
-// import ProjectList from "./ProjectsList";
-// import ProjectItem from "./ProjectItmrs";
+import ProjectCard from "./ProjectsCards";
 
 function Portfolio(){
     return(
@@ -11,9 +10,11 @@ function Portfolio(){
                     <div className="port_title">
                         <h1 style={{color:"white" , textAlign:"center" , paddingTop:"20px" , fontFamily:"monospace"}}>Front End React Projects</h1>
                     </div>
-                    <div className="grid_continer">
+                    {/* <div className="grid_continer">
                         <div className="grid_container1">
-                            <p>tic</p>
+                            <a href="https://tictaktoebynk.netlify.app" target="_blank" rel="noopener noreferrer">
+                                <img className="ticTok" src="./life.jpg" alt="no pic found" />
+                            </a>
                         </div>
                         <div className="grid_container2">
                              
@@ -33,8 +34,11 @@ function Portfolio(){
                         <div className="grid_container7">
                              
                         </div>
-                    </div>
-                    {/* maping  */}
+                    </div> */}
+                    
+                        <div className="projectlist">
+                            <ProjectCard/>
+                        </div>
 
                 </div>
             </div>

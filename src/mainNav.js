@@ -17,13 +17,13 @@ function MainNav(){
                     <NavIcons text="Home" path_test="/" />
                     <NavIcons text="Education" path_test="/education" />
                     <NavIcons text="About Me" path_test="/about" />
-                    <NavIcons text="Portfolio" path_test="/portfolio" />
+                    <NavIcons text="Projects" path_test="/Projects" />
                     <NavIcons text="Contact" path_test="/contact" /> 
                         <Routes>
                             <Route path="/" element={<MainHome/>} />
                             <Route path="education" element={<Education/>}/>
                             <Route path="About" element={<About/>}/>
-                            <Route path="portfolio" element={<Portfolio/>}/>
+                            <Route path="Projects" element={<Portfolio/>}/>
                             <Route path="contact" element={<Contact/>}/>
                         </Routes>
                    </div> 
