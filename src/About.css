@@ -24,9 +24,11 @@
 }
 
 .my_para{
+    padding-top: 20px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
+    letter-spacing: 1px;
 }
 
 .block{

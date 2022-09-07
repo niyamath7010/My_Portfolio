@@ -6,33 +6,94 @@
 
 .main_port_container{
     position: absolute;
-    margin-left: 107px;
+    left: 127px;
+    top: -1px;
     width: 1409px;
     background: linear-gradient(0deg , rgb(0, 0, 0) , rgb(47, 46, 46));
     height: 100vh;
-    margin-top: -20px;
 }
 
-.grid_continer{
-    margin-top: 40px;
-    margin-left: 90px ;
-    width: 75%;
-    display: grid;
-    grid-template-rows: 150px 200px 60px ;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
+
+.tittle{
+    padding-left: 40px;
+    color:rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.grid_container1 , .grid_container2 , .grid_container3 , .grid_container5 , .grid_container6 , .grid_container7 {
-    width: 350px;
-    border: 1px solid white;
-    height: 170px;
+.topContiner{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.contentText{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.topimage{
+    position: relative;
+    left: 40px;
+    top: 10px;
+    height: 25vh;
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.content{
+    width: 300px;
+    border-radius: 10px;
+    background: linear-gradient(0deg , rgb(39, 35, 35) , rgb(58, 51, 51));
+    
+}
+
+.bottmContainer{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+.bottomimageMian{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    height: 25vh;
+    width: 30vw;
+    border-radius: 10px;
+}
+
+.bottomlastimg{
+    height: 25vh;
+    width: 15vw;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 15px;
     cursor: pointer;
+    border-color: red;
 }
 
-.grid_container4{
-    grid-column: 1/-1;
-    height: 200px;
-    border: 1px solid white;
-    cursor: pointer;
+.contentmain{
+    width: 500px;
+    border-radius: 10px;
+    background: linear-gradient(0deg , rgb(39, 35, 35) , rgb(58, 51, 51));;
+}
+
+.content:hover, .contentmain:hover{
+    box-shadow: 5px 5px 5px  rgb(184, 163, 160);
+}
+
+button:hover{
+    background-color: rgb(178, 217, 204);
 }

@@ -1,0 +1,17 @@
+
+
+.main_card_container{
+    position: relative;
+    left: 40px;
+    top:40px
+}
+
+.card_container{
+    display: flex;
+}
+
+.cardImg{
+    width: 15vw;
+    height: 30vh;
+}
+
