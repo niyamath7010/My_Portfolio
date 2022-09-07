@@ -14,8 +14,8 @@ function MainHome(){
                         <h1 className="my_name">Niyamathullah</h1>
                         <h2 className="my_language">React  Developer</h2>
                       <div className="main_btn">
-                        <a href="newUpdatedResume4.pdf"
-                           download= "newupdated-resume.pdf">
+                        <a href="resume786.pdf"
+                           download= "resume786.pdf">
                             <button className="buttons resumeBtn">Resume</button>
                         </a>
                       </div>
