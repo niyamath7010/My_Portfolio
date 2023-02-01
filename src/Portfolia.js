@@ -41,13 +41,13 @@ function Portfolio(){
                                 <a href="https://nkcloneapp.netlify.app" target="_blank" rel="noopener noreferrer"><button>Project Link</button></a>
                             </div>
                         </div>
-                        <div className="content">
+                        {/* <div className="content">
                             <img className="bottomlastimg" src="tictok.jpg" alt="no pic found" />
                             <div className="contentText">
                                 <h3 className="tittle">Weather App</h3>
                                 <button>Project Link</button>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
